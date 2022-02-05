@@ -1,98 +1,93 @@
-a.navbar-brand.text-light {
-    font-size: 40px !important;
-    font-weight: 700;
-    margin-left: 35px !important;
-    color: aqua !important;
+
+/* =======================================
+Common css start
+========================================= */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rationale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lobster&family=Rationale&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600&display=swap');
+
+
+.container{
+    margin-bottom: 80px !important;
 }
+
+/* =======================================
+Common css end
+========================================= */
+
+
+
 a.navbar-brand img {
     width: 50px;
 }
-
-ul.navbar-nav.ms-auto{
-    margin-right: 0px !important;
-    margin-left: 550px !important;
-
+a.navbar-brand.text-white {
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Lobster', cursive;
 }
 
 a.nav-link {
     font-size: 12px !important;
-    color: aqua !important;
+    color: rgb(218, 218, 218) !important;
     text-transform: uppercase !important;
 }
 
-a.nav-link:hover {
-	color: blue !important;
-	font-weight: 100 !important;
-	letter-spacing: 1.5px;
-}
-
-/*-----Navber style  end-----*/
-
-header#header {
-    background-image: url(./img/Juwel.header.JPG);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    z-index: 1000;
+a.nav-link:hover{
+	border-bottom: 2px solid #666666;
+    color: #ffffff !important;
+    border-radius: 5px;
+	transition: all 1s ease;
 }
 
 
-.container-fluid.jjjjjjjjjjj {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+/* =======================================
+        Navber style end
+========================================= */
+
+.background-img.img-fluid.p-0 {
     background-image: url(img/Juwel.header.JPG);
-    height: 100vh;
-    text-align: center !important;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 95vh;
     position: relative;
-    top: 0px;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
 }
 
-/*h1.pt-5.pb-0.text-light {
-    position: absolute;
-    font-size: 50px !important;
-    text-transform: uppercase;
-    color: #08cccc !important;
-    outline-style: dotted; 
-    margin: 0 auto;
-    margin-left: 370px !important;
-    margin-top: 280px !important; 
-}
-*/
-/*-----Header style  end-----*/
+/* =======================================
+        Header style
+========================================= */
+
 
 h1.about-header.text-center {
-    font-size: 40px;
-    font-weight: 700;
+    font-size: 35px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Source Serif Pro', serif;
 }
 
 p.lorem-ipsum {
     text-align: justify;
     font-weight: 400;
-    padding: 20px !important;
+    padding: 10px !important;
+    color: #666666;
 }
 
-.container.p-5 {
-    background: #f5f6f7cf;
-    padding: 72px 0px !important;
-}
-.container.p-4 {
-    background: #e6e6e6 !important;
-}
-.row {
-    --bs-gutter-x: 1.5rem;
+.container.about2 {
+    background: #cccccc !important;
+    border-radius: 0px 50px;
+    padding: 30px 20px;
 }
 
 .text-center.kkkk {
     background: white;
-    margin: 20px;
-    padding: 35px 0px !important;
+    margin: 10px;
+    padding: 30px 0px !important;
+    border-radius: 10px;
+    transform: skewX(-5deg);
+    height: 250px;
 }
-
 
 i.fas.fa-2x.fa-camera {
 	background: black !important;
@@ -108,7 +103,6 @@ i.fas.fa-2x.fa-camera:hover{
 	background: white !important;
 }
 
-
 i.fas.fa-2x.fa-laptop {
 	background: black !important;
 	color: white !important;
@@ -122,7 +116,6 @@ i.fas.fa-2x.fa-laptop:hover{
 	color: black !important;
 	background: white !important;
 }
-
 
 i.fas.fa-2x.fa-globe-europe {
 	background: black !important;
@@ -138,7 +131,6 @@ i.fas.fa-2x.fa-globe-europe:hover{
 	background: white !important;
 }
 
-
 i.fas.fa-2x.fa-star {
 	background: black !important;
 	color: white !important;
@@ -153,85 +145,147 @@ i.fas.fa-2x.fa-star:hover{
 	background: white !important;
 }
 
-/*-----About style  end-----*/
+p.pragruph {
+    margin-bottom: 0;
+    text-align: justify;
+    padding: 10px;
+    line-height: 1.5;
+    color: #666666;
+}
+
+/*========================================
+            About style  end
+==========================================*/
 
 .container.parsonal-info.bg-dark.m-0.p-0 {
     margin: 0 auto !important;
-    padding-bottom: 10px !important;
+    padding-bottom: 5px !important;
+}
+
+h1.text-center.text-light.pt-4.pb-3.resume {
+    font-family: 'Source Serif Pro';
+    text-transform: uppercase;
 }
 
 h2.ms-2.mt-4.education-tytle {
     text-transform: uppercase;
-    font-weight: 300;
-    font-family: none;
+    font-weight: 500;
+    font-family: 'Source Serif Pro';
+}
+
+h6.resum-text {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+h6.resum-year{
+    font-size: 16px;
 }
 
 .mt-4.ms-4.education-exprience {
-	font-family: 'Geo', sans-serif !important;
-    font-size: 13px !important;
-    color: #f7f7f88c !important;
+    font-family: 'Rajdhani', sans-serif;
+    color: #a7a7a7;
 }
-/*h6.m-0.p-0.\31 1111 {
-    font-size: 13px !important;
-}*/
 
-/*-----Resume style  end-----*/
+/*===================================
+            Resume style  end
+=====================================*/
 
-h2.text-center.mt-5.mb-5 {
-    font-size: 40px;
+h2.text-center.mt-5 {
+    text-transform: uppercase;
+    font-family: 'Source Serif Pro';
     font-weight: 600;
 }
 
-.button-link.text-center.mb-4.p-0 {
+p.text-center.mb-5 {
+    text-transform: capitalize;
+    font-size: 16px;
+    color: #666666;
+}
+
+.button-link.text-center.mb-3.p-0 {
     word-spacing: 10px !important;
     text-transform: uppercase;
 }
 
 a.btn.btn-outline-dark.btn-md {
     border-radius: 25px !important;
+    color: #666666;
 }
 a.btn.btn-outline-dark.btn-md:hover{
-    transform: scale(1.1);
-    transition: 1.5s all linear;
-    background: none !important;
-    color: black !important;
+    transition: 1s all ease;
+    background: #000 !important;
+    color: #ffffff !important;
 }
 
-
 .card-img:hover img{
-    transform: scale(1.01);
-    transition: 1.2s all linear;
+    transform: scale(1.03);
+    transition: 1.2s all ease;
     overflow: hidden;
 }
 
 /* ==========================================
-            carusol part start
+            work style part end
 ============================================ */
 
 
 div.d-block.w-100 {
-    height: 550px !important;
+    /* height: 550px !important; */
+    height: 500px !important;
     width: 100% !important;
+}
+h3.carosul.hading.text-light.pt-5 {
+    font-family: 'Source Serif Pro';
+    text-transform: uppercase;
 }
 
 h6.carosul.hadingtitle.text-light {
     font-size: 12px !important;
+    text-transform: uppercase;
+    color: red !important;
 }
 
-p.carosul-text.text-light.text-justify.p-5.pt-0 {
+p.carosul-text.text-light.text-justify.px-5 {
     text-align: justify !important;
     line-height: 1.5 !important;
-    padding-bottom: 0px !important;
+    color: #a7a7a7 !important;
 }
 
-h4.end-title.p-4.text-light.text-center {
-    font-family: 'Dancing Script', cursive !important;
-    color: #2cc896 !important;
+.fab.fa-2x.fa-angellist{
+    color: #0fa13b !important;
 }
+/* h4.end-title.pb-4.text-light.text-center {
+    font-family: 'Dancing Script', cursive !important;
+    color: #0fa13b !important;
+} */
 
 
 /* ==========================================
             carusol part end
+============================================ */
+
+.inner-blog {
+    border: 1px solid #6666;
+    border-radius: 10px;
+}
+
+.inner-blog img{
+    border-radius: 10px 10px 0px 0px;
+}
+
+.blogs-text {
+    padding: 0px 15px;
+}
+
+p.blog-pragruph.pt-2 {
+    color: #666666;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+
+/* ==========================================
+            blogs part end
 ============================================ */
 
 
@@ -254,18 +308,20 @@ span.pr-5 {
     color: red !important;
 }
 
-button.btn.mt-5.btn-outline-info {
-    padding: 10px 40px !important;
-    font-size: 20px !important;
-    border-radius: 50px !important;
-    text-transform: uppercase;
-    letter-spacing: 3px !important;
-    transition: 1.5s !important;
-    font-weight: 500;
-}
+/* ==========================================
+            Contacts part end
+============================================ */
 
-button.btn.mt-5.btn-outline-info:hover{
-    text-transform: 1.2;
-    transform: scale(1.2);
+li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #666666;
+    padding: 5px 10px;
+    border-radius: 10px;
+    transition: all .5s ease;
 }
-/*----kobra all  part end---------*/
+li:hover a {
+   color: rgb(15, 51, 255);
+   background: rgb(255, 255, 255);
+   font-weight: 700;
+}
