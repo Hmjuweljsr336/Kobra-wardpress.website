@@ -4,16 +4,10 @@ a.navbar-brand.text-light {
     margin-left: 35px !important;
     color: aqua !important;
 }
-a.navbar-brand.text-light img {
-    padding-top: 0px !important;
-    height: 50px;
-    width: 55px;
-    margin-top: 0px !important;
+a.navbar-brand img {
+    width: 50px;
 }
-/*nav.navbar.navbar-expand-lg.navbar-light.bg-transparent.m-0.p-0 {
-    position: fixed !important;
-    background: #c7cece !important;
-}*/
+
 ul.navbar-nav.ms-auto{
     margin-right: 0px !important;
     margin-left: 550px !important;
@@ -33,6 +27,16 @@ a.nav-link:hover {
 }
 
 /*-----Navber style  end-----*/
+
+header#header {
+    background-image: url(./img/Juwel.header.JPG);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    z-index: 1000;
+}
+
 
 .container-fluid.jjjjjjjjjjj {
     background-size: cover;
@@ -192,30 +196,17 @@ a.btn.btn-outline-dark.btn-md:hover{
     background: none !important;
     color: black !important;
 }
-.card-group.bd1.mt-5 {
-    justify-content: space-around !important;
-}
-.card-group.bd2.mt-3.mb-5 {
-    justify-content: space-around !important;
-}
 
 
-.card.text-white.bg-primary.mb-3.d-inline-block {
-    max-width: 25rem !important;
-    height: 20rem !important;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: none;
-    border-radius: initial !important;
-}
-.card.text-white.bg-primary.mb-3.d-inline-block:hover{
-    transform: scale(1.1);
-    transition: 2s all linear;
+.card-img:hover img{
+    transform: scale(1.01);
+    transition: 1.2s all linear;
+    overflow: hidden;
 }
 
-
-                        /*----carusol part start---------*/
+/* ==========================================
+            carusol part start
+============================================ */
 
 
 div.d-block.w-100 {
@@ -238,7 +229,11 @@ h4.end-title.p-4.text-light.text-center {
     color: #2cc896 !important;
 }
 
-                /*----carusol part end---------*/
+
+/* ==========================================
+            carusol part end
+============================================ */
+
 
 h5.contactus.pb-3 {
     text-transform: uppercase !important;
