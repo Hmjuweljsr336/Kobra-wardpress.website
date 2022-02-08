@@ -311,17 +311,3 @@ span.pr-5 {
 /* ==========================================
             Contacts part end
 ============================================ */
-
-li a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #666666;
-    padding: 5px 10px;
-    border-radius: 10px;
-    transition: all .5s ease;
-}
-li:hover a {
-   color: rgb(15, 51, 255);
-   background: rgb(255, 255, 255);
-   font-weight: 700;
-}
