@@ -265,7 +265,7 @@ p.carosul-text.text-light.text-justify.px-5 {
 ============================================ */
 
 .inner-blog {
-    border: 1px solid #6666;
+    border: 1px solid rgba(102, 102, 102, 0.4);
     border-radius: 10px;
 }
 
